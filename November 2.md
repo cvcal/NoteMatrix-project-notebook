@@ -14,6 +14,15 @@ A number of open questions remain as I begin to move into this project:
 
 I'm currently looking into what, exactly, the MIDI protocol can do, and how to edit the tone of sounds simply, without relying on a complete synthesizer.
 
+### Here are some things I've been looking at:
+
+Generally reading up on what [MIDI](http://www.midi.org/index.php) is, what it can do, and how.
+
+#### Music APIs
+* [jMusic](http://explodingart.com/jmusic/) is huge, it's what Prof. Keller uses for Impro-Visor.
+* [JFugue](http://www.jfugue.org/index.html) probably could get the work done, but goes to far down the [abcnotation](http://abcnotation.com/) path for my liking. It does have support for different types of sounds, I'll have to look more into how it allows manipulation of this. Apparently it supports microtonal stuff, which is cool.
+* Scala seems to have less developed libraries, which makes sense. [scala-midi](https://code.google.com/p/scala-midi/) is a thing.
+
 ## Questions
 
 **What is the most pressing issue for your project? What design decision do
