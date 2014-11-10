@@ -15,6 +15,15 @@ Quick list of resources I've been using, and questions that have arisen from thi
 * I re-read up on sbt stuff, to actually learn the tool, and be able to setup my directory structure, dependencies, and things, so I spent a significant chunk of time on [the sbt page's tutorials](http://www.scala-sbt.org/0.13/tutorial/).
 * I've been reading more about JMusic, looking through the [tutorials](http://explodingart.com/jmusic/jmtutorial/t1.html)
   * Some possible issues include the fact that JMusic, while powerful, is [NOT meant to be a real-time compositional tool](http://explodingart.com/jmusic/jmtutorial/x22.html). This means it will work great if what I want to do is let users map out their song, then click a "play" button, at which point the language can "compile" and produce some audio file, which the GUI could play, potentially, but it might not work if I want my final product to be as immediate and intuitive as tonematrix.
+  * Some nice things about JMusic include the sheer quantity of instruments and synths I could work from for the different tone quality options I want to provide. Turns out making instruments is hard?
+
+In an effort to clarify my thought process and my vision for this project, I made some nice images.
+* This is the basic idea: 
+	![Basic](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_simple_inUse.png)
+* This is that idea, with the possibility of having a single not last more that one beat. 
+	![Multiple beats](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_idea_continuousTime_inUse.png)
+* This is the original idea with the addition of being able to loop multiple grids a preset number of times 
+	![Loops](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_idea_withLoops_inUse.png)
 
 ## Questions
 
