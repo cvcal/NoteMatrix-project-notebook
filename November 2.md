@@ -43,4 +43,13 @@ I put in about 8 hours on the project this week. This was mostly spent working o
 
 ## Post-critique summary
 
+I feel that quite a bit of Mauricio's criticism was centered around two main points: First, he thinks I should make something that *isn't* the same as tonematrix, adding features to add to the realm of what is possible, and to make the feel of using the language different. Second, he expressed some concern over the primary focus of my project, and whether I would spend enough time on the design and language aspect, instead of getting distracted by the GUI. 
+
+Concerning the first of these two points, Mauricio suggested a number of features and tools that he thought of while playing around with tonematrix. 
+
 ## Post-critique reflection
+From these comments I learned a few things. First, some of the suggested features were replicating the tools I was suggesting, but did so in a different way. Aside from the obvious "yes, there are many ways to implement an interface for making a note longer," as one example, it made me realize that I hadn't been sufficiently clear in my own description, and that many of the terms that made sense to me, in my mind, were not necessarily clear to people living outside of my skull. I know, shocker, right?
+
+This lead me to discuss my idea with Mauricio, in person, during class on Wednesday. I realized where some of the confusion lay, and decided to make some nice images to better describe what my overall vision was. I also got to ask some followup questions. I asked if he had any opinion the type of scale I should use for my pitch axis, whether I should have the entire chromatic scale and allow the users all western harmonies, or whether I should limit the choice in the hope of keeping the language easier to use. I also asked, and this time with a pencil to draw out some different ideas, how to ask the user to input the color. 
+
+
