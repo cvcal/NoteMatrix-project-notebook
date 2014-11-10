@@ -18,12 +18,13 @@ Quick list of resources I've been using, and questions that have arisen from thi
   * Some nice things about JMusic include the sheer quantity of instruments and synths I could work from for the different tone quality options I want to provide. Turns out making instruments is hard?
 
 In an effort to clarify my thought process and my vision for this project, I made some nice images.
-* This is the basic idea: 
-	![Basic](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_simple_inUse.png)
+* This is the basic idea, the first image with notes, and the second with some squares colored in for a feel of what it would look like with things being pressed.
+	![Basic with notes](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_idea_simpleWithNotes.png)
+	![Basic in use](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_simple_inUse.png?raw=true)
 * This is that idea, with the possibility of having a single not last more that one beat. 
-	![Multiple beats](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_idea_continuousTime_inUse.png)
+	![Multiple beats](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_idea_continuousTime_inUse.png?raw=true)
 * This is the original idea with the addition of being able to loop multiple grids a preset number of times 
-	![Loops](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_idea_withLoops_inUse.png)
+	![Loops](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/initial_examples/GUI_idea_withLoops_inUse.png?raw=true)
 
 ## Questions
 
