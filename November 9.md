@@ -27,7 +27,7 @@ Quick list of resources I've been using, and questions that have arisen from thi
     to provide. Turns out making instruments is hard?
 
 In an effort to clarify my thought process and my vision for this project, I 
-made some nice images, and updated the [design and implementation](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/design_and_implementation.md) 
+made some nice images, and have started working on the [design and implementation](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/design_and_implementation.md) 
 document with some more detailed description of what I want with the final 
 product, and how this will impact and help determine implementation.
 
