@@ -62,6 +62,7 @@ this even true? I know Scala can be run anywhere the Java VM is, but I feel
 like Java might still be easier to share with people.
 
 
+
 **How much time did you spend on the project this week?**
 Counting critique, critique reflection, and everything, somewhere between 8 
 and 9 hours.
@@ -69,4 +70,54 @@ and 9 hours.
 
 ## Post-critique summary
 
+Paul seemed to be generally positive about the idea, how intuitive the grid
+system would be. He suggests a few possible changes or clarifications, which I 
+will respond to in the reflection section. 
+
+He had a bit to say about the possibility of having an external DSL to 
+store the grid and allow for saving programs, and editing them outside of the 
+GUI interface. He confirmed my initial feeling that this might be a nice way
+to begin to implement and test the language before worrying about the GUI 
+aspect, but also suggested that it would not be as useful as it seems, as users 
+of the language would focus on the GUI, and there are other ways to test a GUI.
+
+
 ## Post-critique reflection
+
+First, to answer some of the questions raised by the critique:
+* My plan is to not implement the ability to have multiple note-lengths, at 
+  least not at first. I will try to implement the grammar in such a way that it 
+  would be possible to add different note lengths later without too much 
+  difficulty, maybe even actually building that functionality in, but I would 
+  focus on implementing the GUI in the simpler way, deferring the added feature 
+  to later. If the feature was added, the idea would be to have the user click 
+  and drag over multiple box locations to make a single note of that length, as 
+  opposed to clicking the boxes individually, which would create separate notes.
+  I will be careful to add this type of detail to my design and implementation
+  section for Sunday.
+* For the possibility of creating your own instrument, that's very technical 
+  and largely beyond the scope of the project, I think, but someone with that 
+  technical capacity might be able to map a particular color to an instrument 
+  that they create by editing the code itself. I'll think of other ways to make
+  this possible, but it's gonna be on the back burner for now. Some of the 
+  problems involved include the fact that an instrument might just be a
+  waveform that's contracted or expanded for the desired frequency, but it 
+  often has other variations from one note to another. This is especially 
+  across registers, the lower notes of an instrument would have very different 
+  overtone patterns, so a tool that just creates a basic waveform would not 
+  sound convincingly like its own instrument. Anyway, lots of difficulties with 
+  this idea, I think it would be its own project, a language to synthesize 
+  sound.
+* The grids in parallel shouldn't be necessary, since a single grid can already
+  play multiple sounds at the same time. The only problem that might solve 
+  would be the possibility of multiple instruments playing the same note at the 
+  same time. This is something I'm trying to figure out, but I think I can find 
+  cleaner solutions.
+
+I think I will follow the advice for the distinction between implementing the 
+sound creation as delayed or real-time. Stick with the delayed solution for 
+now, get the rest of the system up and running, and then potentially look into 
+finding real-time tools and incorporating those in later, if I continue the 
+project past the class.
+
+
