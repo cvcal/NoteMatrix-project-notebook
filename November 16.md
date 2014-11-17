@@ -19,7 +19,7 @@ different tools that Scala offers.
 Much of the rest of the time I've spent on the project this week was 
 productive but doesn't have much to show for itself. For example, setting up 
 the project, downloading JMusic and editing class paths as needed to make 
-everything (from the jmusic jar file to the list of instrument classes) work 
+everything (the jmusic jar file and the list of instrument classes) work 
 and link up properly. I have been able to link up the .jar as needed, but 
 I can't seem to find any way to link up the directory containing the 
 instrument classes. I have followed 
@@ -33,7 +33,7 @@ recognizes this directory's files.
 
 One particular tutorial I might want to keep in mind is the 
 [real-time audio](http://explodingart.com/jmusic/jmtutorial/RealtimeAudio.html)
-tutorial, but I won't try to worry about that right now.\
+tutorial, but I won't try to worry about that right now.
 
 
 ## Questions
@@ -62,7 +62,7 @@ team, how did you share the labor?**
 
 About 2 hours on critique and critique reflection. 3.5 hours finishing 
 up the design and implementation document. Another 3.5 to 4 hours were spent
-trying to set up and debug the
+trying to set up and debug the jmusic instrument situation. 
 
 ## Post-critique summary
 
