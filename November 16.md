@@ -53,7 +53,7 @@ Any tips?
 
 Beyond the jmusic problem, please let me know if any design decisions I've 
 made in the 
-[design and implemenation](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/design_and_implementation.md) 
+[design and implementationn](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/design_and_implementation.md) 
 page don't make sense, need more clarification, or simply sound less than 
 effective for the user.
 
@@ -66,4 +66,40 @@ trying to set up and debug the jmusic instrument situation.
 
 ## Post-critique summary
 
+Matt pointed out a few things I've been less than clear about, including 
+things I've been avoiding. These include the whole "how am I gonna choose the
+grid's size" question and details on how to unselect grid squares.
+
+He also suggests I solve the instrument problem by simply including the files
+I need into my project, which I think might be the simplest solution as well.
+
 ## Post-critique reflection
+
+I asked Prof. Keller about JMusic tips, but he told me his project didn't use 
+the JMusic instruments, instead relying only on the midi capabilities and 
+built-in Java midi instruments. This, along with in class discussion and 
+Matt's comments, convinced me that I should stop trying to fix the problem the 
+hard way. I'll include any files I need in my project, properly attributed, and
+potentially end up creating my own instruments. Looking at the instrument code
+more closely, it might be easier to simply make my own instruments based on the
+provided examples, but I'll see if I need this. For now, I'll work to 
+implement the basic project structure using existing instruments.
+
+As far as the two problems that Matt identified go, here are my general 
+response:
+* For inputing the size of the grid, I agree there should be limits. It makes 
+  no sense to have a limitless vertical direction, as there are only so many 
+  pitches we can generate and hear anyway, so that is naturally limited. A 
+  scroll bar might be a nice way to indicate the desired size, that's a pretty 
+  elegant suggestion. For the horizontal axis, there's no real reason to limit 
+  it, other than the sheer practicality of making looping segments if the 
+  contents are too long for the looping to be noticed or well planned out. 
+  I'll have to consider that one more carefully. Having scroll bars for both 
+  makes sense, but I'll have to consider the limits of the size.
+* For unselecting grid squares, the idea is just to click a square that's 
+  selected to unselected. If a square has multiple colors, you'd have to be in 
+  the color you want to erase, so that clicking a square flips that color's 
+  on/off state in that square. It might also be nice to have clear-all option, 
+  or a clear-all-of-one-color option.
+
+
