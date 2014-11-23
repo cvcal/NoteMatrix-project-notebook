@@ -8,13 +8,20 @@ do what I want. Things I learned:
 * Most midi instruments sound gross (Prof. Keller warned me that the built-in 
   midi instruments in newer versions of Java sound worse than they used to,) 
   but they are really easy to use, and I can use them for prototyping, and can 
-  eventually add things later, potentially.
+  eventually add audio instruments (bypassing the midi suckiness) later, 
+  potentially.
+  * Some simple midi instruments that don't sound too awful include `Vibes`, `Pizz`, `Clavinet`, `Clarinet`, `Panflute`, 
+  * All string instruments sound horrible, and many brass ones do too, 
+    of these, the `Fiddle` might be best, if you forget what it's called
 * It took me a while to find how to control timing properly, as the JMusic 
   structure just gets you to add a note after a note, without regard to 
   placement, just order. When one finishes, another begins, and you have to 
   explicitly add rests if there shouldn't be a note playing. This means I'll 
   have to leverage phrases to get multiple notes at once, maybe. I'll see how 
   they handle chords first.  
+  * [CPhrases](http://explodingart.com/jmusic/jmtutorial/Chords.html), or chord
+    phrases, should allow me to have multiple notes at the same time, though I
+    will still be keeping each instrument separately in different phrases.
 
 ## Questions
 
