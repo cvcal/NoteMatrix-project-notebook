@@ -9,8 +9,11 @@ do what I want. Things I learned:
   midi instruments in newer versions of Java sound worse than they used to,) 
   but they are really easy to use, and I can use them for prototyping, and can 
   eventually add audio instruments (bypassing the midi suckiness) later, 
-  potentially.
-  * Some simple midi instruments that don't sound too awful include `Vibes`, `Pizz`, `Clavinet`, `Clarinet`, `Panflute`, 
+  potentially. However, they are nice in that they are super simple since
+  you can represent one simply with an integer to represent the value when you
+  create a part (series of phrases, which are each series of notes (or 
+  CPhrases, which are chords))
+  * Some simple midi instruments that don't sound too awful include `Pizz`, `Clavinet`, `Clarinet`, `Bird`, `Panflute`, and `Glockenspiel'.
   * All string instruments sound horrible, and many brass ones do too, 
     of these, the `Fiddle` might be best, if you forget what it's called
 * It took me a while to find how to control timing properly, as the JMusic 
@@ -40,10 +43,13 @@ I spent about 2 hours on the critique and critique reflection. I then debugged
 just going to include the instrument files I decide I need in my project. This 
 process took about an hour, making sure everything worked, and I spent another 
 hour messing around with the "Make it go Bing" tutorial and the instruments, to
-get a better idea of how JMusic works. That's ~4 hours so far. I spent some 
-time in class reading JMusic documentation and beginning to build the skeleton
-of my Grid class, so that I have a better idea of what aspects of JMusic I need 
-to focus on, what I will need.
+get a better idea of how JMusic works. That's ~4 hours so far. 
+
+I spent some time in class reading JMusic documentation and beginning to build 
+the skeleton of my Grid class, so that I have a better idea of what aspects of 
+JMusic I need to focus on, what I will need. I also spent a good two to three 
+hours more on the tutorials, particularly messing with midi instruments as a 
+very simple way to get instruments for a trial version.
 
 ## Post-critique summary
 
