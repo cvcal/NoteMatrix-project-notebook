@@ -90,4 +90,16 @@ That's 11-12 hours this week.
 
 ## Post-critique summary
 
+Empathy on Java/Scala problem. A bunch of suggestions on the things for GUI
+implementation and agreement that GUI should be my focus.
+
+Mauricio also said I should maybe add any functionality I need first (make 
+the looping structyre work on its own, which should be relatively trivial)
+ before implementing the GUI, so that I have a solid foundation to work from. 
+
 ## Post-critique reflection
+
+I mostly agree with him, and thanks for the recommendation! I'll first add
+the loop-of-multiple-grids thing, and build my GUI off of that interface.
+
+
