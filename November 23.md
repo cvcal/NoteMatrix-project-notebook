@@ -14,7 +14,7 @@ do what I want. Things I learned:
   create a part (series of phrases, which are each series of notes (or 
   CPhrases, which are chords))
   * Some simple midi instruments that don't sound too awful include `Pizz`, 
-    `Clavinet`, `Clarinet`, `Bird`, `Panflute`, and `Glockenspiel'.
+    `Clavinet`, `Clarinet`, `Bird`, `Panflute`, and `Glockenspiel`.
   * All string instruments sound horrible, and many brass ones do too, 
     of these, the `Fiddle` might be best, if you forget what it's called
 * It took me a while to find how to control timing properly, as the JMusic 
