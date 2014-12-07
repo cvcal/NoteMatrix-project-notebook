@@ -23,7 +23,7 @@ of tims each cell was clicked.
 Here's what itlooks like:
 
 <p align="center">
-  <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/multipleColorCells.png" width="400" />
+  <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/multipleColorCells.png" width="250" />
 </p>
 
 I think transferring this to the actual grid I'm interested in should be much more doable now that I'm more comfortable with how to approach the problem.
