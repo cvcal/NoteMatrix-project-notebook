@@ -18,8 +18,13 @@ I then extended this to make it more complex/add more of the functionality I'm
 interested in having in my GUI, by allowing multiple clicks to paint the 
 grid's cell into different colors, spliting the cell into sub-polygons each 
 with a color. Currently with a max of 2 colors in the cell, this version of 
-the exercise is in 
-[GridTrial.java](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/src/tutorials/Swing/GridTrial.java).
+the exercise is in
+[GridTrial.java](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/src/tutorials/Swing/GridTrial.java),
+and it increases the count of colors per box according to how often you click 
+the cell. I'm going to do the math and practice the 3-color and 4-color 
+versions one as well, as those also need to exist in my grid, and the less
+of the small stuff I have to worry about implementing the general project's
+grid.
 
 I think transferring this to the actual grid I'm interested in should be much more doable now that I'm more comfortable with how to approach the problem.
 
@@ -32,7 +37,8 @@ are you evaluating your design and implementation?**
 **What questions do you have for your critique partners? How can they best help
 you?**
 
-**How much time did you spend on the project this week? **
+**How much time did you spend on the project this week?**
+
 I spent a good 2-3 hours on the critique this week (in the 3+ range if you 
 count inclass time, 2+ without).
 
