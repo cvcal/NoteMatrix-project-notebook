@@ -2,12 +2,26 @@
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+Much of this week was spent learning about GUI stuff, it's been a while since 
+I've last had to code event listeners, so I needed to brush up. I first tried 
+getting used to Swing, then tried objectdraw at Mauricio's suggestion, but 
+found that it wouldn't be capable of doing everything I need, it *is* intended 
+as just a teaching tool.
+
+The most useful/applicable example I did is in 
+[CoreControl.java](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/src/tutorials/Swing/CoreControl.java).
+It's based originally off of a question on stackoverflow, and I then edited 
+some aspects to practice mouse event handling in a way relevant to my project:
+when you click a cell in CoreControl's grid, it turns red! 
+
+I then extended this to make it more complex/add more of the functionality I'm 
+interested in having in my GUI, by allowing multiple clicks to paint the 
+grid's cell into different colors, spliting the cell into sub-polygons each 
+with a color. Currently with a max of 2 colors in the cell, this version of 
+the exercise is in 
+[GridTrial.java](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/src/tutorials/Swing/GridTrial.java).
+
+I think transferring this to the actual grid I'm interested in should be much more doable now that I'm more comfortable with how to approach the problem.
 
 ## Questions
 
@@ -18,8 +32,13 @@ are you evaluating your design and implementation?**
 **What questions do you have for your critique partners? How can they best help
 you?**
 
-**How much time did you spend on the project this week? If you're working in a
-team, how did you share the labor?**
+**How much time did you spend on the project this week? **
+I spent a good 2-3 hours on the critique this week (in the 3+ range if you 
+count inclass time, 2+ without).
+
+I spent 6-ish hours on the tutorials and making the grid example on Saturday. 
+
+
 
 ## Post-critique summary
 
