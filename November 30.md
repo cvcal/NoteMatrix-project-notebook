@@ -39,4 +39,28 @@ to the critique and stuff.
 
 ## Post-critique summary
 
+Paul seemed to like where the project had gone, but wanted to see more testing
+for the backend. He also suggested considering a minimally-viable GUI to start
+with, and to add to it incrementally, to maximize the chance of having something
+working by the end. He also suggests I make it easier to download the project.  
+
 ## Post-critique reflection
+
+I agree with pretty much everything Paul said. I need to prioritize my goal 
+though. I will put off making the language easy to install/download until I 
+actually know what I need for it. I can probably still improve the current 
+process though, for people who want to download the code.
+
+For testing, I definitely should look into it. Currently, I haven't really done 
+anything because there is frankly so little to test. The backend is more of a 
+it-works/it-doesn't situation, at least for now, and I don't know much about how 
+to compare midi files to see if they are what they should be. I will continue 
+making examples and testing by hand, but I probably won't make an extended suite 
+of tests for a little bit, I think my priority should be on getting the language 
+to actually be interfaced properly - aka graphically.
+
+For the GUI, I have been considering a minimally-viable option: I need a grid
+that makes notes, a color-selector to make the right notes, and a "play"
+button. Extentions include : making it pretty, having the intervals highlighted 
+as I described above, and adding the looping, or at least being able to specify
+how often to loop the current grid.
