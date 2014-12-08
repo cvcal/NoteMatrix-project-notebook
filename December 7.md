@@ -32,7 +32,7 @@ grid in a window. The GUI does not yet have the clicking interface implemented, 
 I have yet to get to it, but I added the hack that clicking plays the grid, so you 
 see the code-generated grid, and can click on it to hear it play. Also, the 
 coloring of cells when they are selected by multiple instruments at once does not seem 
-to be working yet, I need to debug this. This is what the trial looks like:
+to be working yet, I need to debug this. This is what the trial looks like (with bug):
 
 <p align="center">
   <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/initialGrid-alpha.png" width="150" />
