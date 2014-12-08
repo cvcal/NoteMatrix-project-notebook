@@ -28,7 +28,7 @@ Here's what itlooks like:
 
 I have started to transfer this to my grid, and hacked together a starting version of [Tonatrix](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/src/main/Tonatrix.java) 
 that basically creates the grid from BasicGridTest, then displays this generated 
-grid on the GUI. The GUI does not yet have the clicking interface implemented, as 
+grid in a window. The GUI does not yet have the clicking interface implemented, as 
 I have yet to get to it, but I added the hack that clicking plays the grid, so you 
 see the code-generated grid, and can click on it to hear it play. Also, the 
 coloring of cells when they are selected by multiple instruments at once does not seem 
