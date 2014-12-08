@@ -63,7 +63,9 @@ I spent 6-ish hours on the tutorials and making the grid example on Saturday.
 Another quick hour editing this and adding the 3- and 4-color split in the grid
 example on Sunday.
 
-Total of 9-10 hours.
+Add 1 hour of critique reflection.
+
+Total of 10-11 hours.
 
 
 ## Post-critique summary
