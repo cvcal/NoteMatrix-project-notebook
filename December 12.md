@@ -11,6 +11,16 @@ I made my thing work! With caveats:
 * You cannot choose the instruments yet, these are set ahead of time, before 
   opening up the GUI.
 
+Here's what it looks like empty:
+<p align="center">
+  <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/workingVersionEmpty.png" width="300" />
+</p>
+
+And with notes:
+<p align="center">
+  <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/workingVersionWithThings.png" width="300" />
+</p>
+
 ## Questions
 
 **How much time did you spend on the project this week?**
