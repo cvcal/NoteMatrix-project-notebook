@@ -23,11 +23,21 @@ of tims each cell was clicked.
 Here's what itlooks like:
 
 <p align="center">
-  <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/multipleColorCells.png" width="250" />
+  <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/multipleColorCells.png" width="200" />
 </p>
 
-I think transferring this to the actual grid I'm interested in should be much more 
-doable now that I'm more comfortable with how to approach the problem.
+I have started to transfer this to my grid, and hacked together a starting version of [Tonatrix](https://github.com/cvcal/NoteMatrixWithTonality/blob/master/src/main/Tonatrix.java) 
+that basically creates the grid from BasicGridTest, then displays this generated 
+grid in a window. The GUI does not yet have the clicking interface implemented, as 
+I have yet to get to it, but I added the hack that clicking plays the grid, so you 
+see the code-generated grid, and can click on it to hear it play. Also, the 
+coloring of cells when they are selected by multiple instruments at once does not seem 
+to be working yet, I need to debug this. This is what the trial looks like (with bug):
+
+<p align="center">
+  <img src="https://github.com/cvcal/NoteMatrixWithTonality/blob/master/documents/pictures/initialGrid-alpha.png" width="150" />
+</p>
+
 
 ## Questions
 
@@ -63,9 +73,10 @@ I spent 6-ish hours on the tutorials and making the grid example on Saturday.
 Another quick hour editing this and adding the 3- and 4-color split in the grid
 example on Sunday.
 
-Add 1 hour of critique reflection.
+Add 3 hour of critique reflection and adding functionality to my actual grid
+later on Sunday.
 
-Total of 10-11 hours.
+Total of 12-13 hours.
 
 
 ## Post-critique summary
